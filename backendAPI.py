@@ -38,3 +38,4 @@ def Request(req : TurbineObject):
     input_value = torch.tensor(input_value, torch.float32)
     return {"inference" : model.forward(input_value)}
    
+
