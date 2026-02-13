@@ -39,6 +39,6 @@ class clean_dataset():
 
 arr = np.load('new_dataset.npy', allow_pickle=True)
 dicti = np.load('event_dictionary.npy', allow_pickle=True)
-print(dicti.item())
+print(dicti)
 
 
